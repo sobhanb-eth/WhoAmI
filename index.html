@@ -9,6 +9,8 @@
   <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Clicker+Script|Sacramento&display=swap" rel="stylesheet">
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/e880b569aa.js"></script>
+
+
 </head>
 
 <body>
@@ -31,7 +33,8 @@
       <div class="skill-row">
         <img class="skill-img-1" src="images/Coding1.svg" alt="">
         <h3>Design & Development</h3>
-        <p class="code-skill-desc">I am a Junior (Constant Learner always will be) Software Developer who has knowledge of Web Development (HTML, CSS, JS, Bootstrap, Node.js, ...), UI n UX design, PWA systems, some experience in Ionicframework, and I also develop games and Mobile Apps. </p>
+        <p class="code-skill-desc">I am a Junior (Constant Learner always will be) Software Developer who has knowledge of Web Development (HTML, CSS, JS, Bootstrap, Node.js, ...), UI n UX design, PWA systems, some experience in Ionicframework, and I
+          also develop games and Mobile Apps. </p>
       </div>
       <div class="skill-row">
         <img class="skill-img-2" src="images/mobile-app.svg" alt="">
@@ -44,19 +47,46 @@
       <h2>Get In Touch</h2>
       <h3>I’m currently available for freelance work.</h3>
       <p id="contact-message">If you have a project that you want to get started, think you need my help with something or just fancy saying hey, then get in touch.</p>
-      <a class="btn" href="mailto:sobhan.bahrami@metu.edu.tr"><i class="far fa-envelope"></i> CONTACT ME</a>
+      <a id="myBtn"class="btn"><i class="far fa-envelope"></i> CONTACT ME</a>
+      <!-- <button id="myBtn">Open Modal</button> -->
     </div>
   </div>
 
-<!-- Footer -->
+  <!-- Contactform -->
+  <div id="myModal">
+    <span class="close">&times;</span>
+<!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfhpnI-jok_ddqy9--UAVT8Diyz8gtAUzGR96vEYkWlSJ4esg/viewform?embedded=true" width="640" height="870" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> -->
+    <!-- <div class="wrapper">
+      <span class="close">&times;</span>
+      <div class="contact-form">
+        <div class="input-fields">
+          <input type="text" class="input" placeholder="Name">
+          <input type="text" class="input" placeholder="Email Address">
+          <input type="text" class="input" placeholder="Phone">
+          <input type="text" class="input" placeholder="Subject">
+        </div>
+        <div class="msg">
+          <textarea placeholder="Message"></textarea>
+          <div class="btn"><i class="far fa-paper-plane"></i> send</div>
+        </div>
+      </div>
+    </div> -->
+<div class="wrapper">
+  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfhpnI-jok_ddqy9--UAVT8Diyz8gtAUzGR96vEYkWlSJ4esg/viewform?embedded=true" width="640" height="870" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+</div>
+  </div>
+
+
+  <!-- Footer -->
 
   <div class="bottom-container">
     <a class="footer-link" href="https://www.linkedin.com/in/sobhan-bahrami-6ba80022">LinkedIn</a>
     <a class="footer-link" href="https://twitter.com/ViperTechRnD">Twitter</a>
     <a class="footer-link" href="#">Github</a>
+    <a class="footer-link" href="mailto:sobhan.bahrami@metu.edu.tr">E-Mail</a>
     <p class="copy-right">© 2019 Sobhan Bahrami.</p>
   </div>
 
 </body>
-
+  <script src="js/script.js" charset="utf-8"></script>
 </html>
