@@ -80,6 +80,15 @@ p {
   text-align: left;
   margin-top: 10%;
 }
+.portfolio-row {
+  width: 80%;
+  margin: 100px auto;
+  text-align: center;
+}
+.portfolio-img {
+  width: 20%;
+  margin: 20px;
+}
 .skill-img-1 {
   width: 20%;
   float: left;
