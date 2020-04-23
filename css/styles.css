@@ -108,6 +108,10 @@ p {
   width: 30%;
 }
 
+.tech-icon {
+  width: 48px;
+  display: inline-block;
+}
 
 /********Portfolio section*********/
 
