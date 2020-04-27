@@ -10,3 +10,5 @@ My Personal WebPage
 
 
 This is my personal mini-portfolio that i designed with HTML5 and CSS3 (no 3rd party styling had been used).
+
+**Please leave a star if you are downloading and reusing this**
