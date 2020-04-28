@@ -2,7 +2,7 @@
 
 My Personal WebPage
 
-[![CircleCI](https://circleci.com/gh/ViperTechnologies-RnD/WhoAmI/tree/circleci-project-setup.svg?style=svg)](https://circleci.com/gh/ViperTechnologies-RnD/WhoAmI/tree/circleci-project-setup)
+[![CircleCI](https://circleci.com/gh/ViperTechnologies-RnD/WhoAmI.svg?style=svg)](https://circleci.com/gh/ViperTechnologies-RnD/WhoAmI)
 ![GitHub contributors](https://img.shields.io/github/contributors/ViperTechnologies-RnD/WhoAmI)
 ![GitHub repo size](https://img.shields.io/github/repo-size/ViperTechnologies-RnD/WhoAmI)
 ![GitHub](https://img.shields.io/github/license/ViperTechnologies-RnD/WhoAmI)
